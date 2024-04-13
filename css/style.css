@@ -2,16 +2,17 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 100vh;
+  height: 400vh;
   position: relative;
-  overflow: hidden;
-  background: linear-gradient(#123, #405c48); }
+  overflow: scroll;
+  background: linear-gradient(#123 0%, #1A6BA0 40%); }
 
 .title {
   color: #fffff7;
-  font-size: 3vw;
+  font-size: 5vw;
   text-align: center;
-  font-family: 'Roboto', sans-serif; }
+  text-shadow: 1px 1px 2px gray;
+  font-family: 'Georgia', serif; }
 
 #main {
   height: 100vh;
